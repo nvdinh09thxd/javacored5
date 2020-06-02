@@ -14,20 +14,20 @@ public class BaiTap3 {
 		case 8:
 		case 10:
 		case 12:
-			if (ngay <= 31)
+			if (0 < ngay && ngay <= 31)
 				return true;
 			break;
 		case 4:
 		case 6:
 		case 9:
 		case 11:
-			if (ngay <= 30)
+			if (0 < ngay && ngay <= 30)
 				return true;
 			break;
 		case 2:
-			if ((nam % 4 == 0 && nam % 100 != 0) || (nam % 400 == 0) && ngay <= 29)
+			if ((nam % 4 == 0 && nam % 100 != 0) || (nam % 400 == 0) && 0 < ngay && ngay <= 29)
 				return true;
-			else if (ngay <= 28)
+			else if (0 < ngay && ngay <= 28)
 				return true;
 			break;
 		}

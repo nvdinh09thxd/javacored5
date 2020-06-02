@@ -1,4 +1,4 @@
-package baitap1;
+package baitap.baitap1;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
