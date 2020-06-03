@@ -1,4 +1,4 @@
-package pk1;
+package ex;
 
 import java.util.Scanner;
 
