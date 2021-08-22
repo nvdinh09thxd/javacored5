@@ -9,6 +9,7 @@ public class LamTron {
 		try {
 			System.out.print("Nhap vao mot so: ");
 			double number = Double.parseDouble(sc.nextLine());
+			sc.close();
 			System.out.println("So vua nhap vao: "+number);
 			System.out.println("So lam tron len: "+Math.ceil(number));
 			System.out.println("So lam tron xuong: "+Math.floor(number));

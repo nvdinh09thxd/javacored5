@@ -16,6 +16,7 @@ public class BaiTap2 {
 			try {
 				System.out.print("Nhập một số: ");
 				n = Integer.parseInt(sc.nextLine());
+				sc.close();
 				if (n < 2 || n > 8) {
 					throw new SoTu2_8Exception("Phải nhập số từ 2 đến 8");
 				}

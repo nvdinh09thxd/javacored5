@@ -29,6 +29,7 @@ public class BaiTap4 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Nhập chuỗi: ");
 		str = sc.nextLine();
+		sc.close();
 		System.out.println("In mỗi từ trên một dòng");
 		displayStr(str);
 		System.out.println("Số từ trong chuối là: " + demSoTu(str));

@@ -2,14 +2,14 @@ package baitap.baitap2;
 
 import java.util.Scanner;
 
-import exception.GiaiPTException;
+import baitap.exception.GiaiPTException;
 
 public class GiaiPhuongTrinh {
 
 	public static void giaiPTB1(float a, float b) throws GiaiPTException {
-		if (a == 0)
+		if (a == 0) {
 			throw new GiaiPTException("Vui long nhap he so a khác 0!");
-		else {
+		} else {
 			System.out.println("Phuong trinh co nghiem: " + (-b / a));
 		}
 	}
@@ -31,6 +31,7 @@ public class GiaiPhuongTrinh {
 				System.out.println(e.getMessage());
 			}
 		} while (cont);
+		sc.close();
 
 	}
 

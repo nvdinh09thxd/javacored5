@@ -3,7 +3,7 @@ package ex;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import exception.GiaiPTException;
+import baitap.exception.GiaiPTException;
 
 public class GiaiPhuongTrinhBac1 {
 

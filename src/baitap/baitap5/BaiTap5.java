@@ -3,8 +3,9 @@ package baitap.baitap5;
 import java.util.Scanner;
 
 public class BaiTap5 {
+	static Scanner sc = new Scanner(System.in);
+
 	public static String nhapChuoi() {
-		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhập một chuỗi: ");
 		return sc.nextLine();
 	}
