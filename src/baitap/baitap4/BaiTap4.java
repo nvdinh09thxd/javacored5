@@ -18,7 +18,7 @@ public class BaiTap4 {
 	}
 
 	public static void inChuoiDaoNguoc(String str) {
-		String arrStr[] = str.split(" ");
+		String arrStr[] = str.split("");
 		for (int i = arrStr.length - 1; i >= 0; i--) {
 			System.out.print(arrStr[i] + " ");
 		}

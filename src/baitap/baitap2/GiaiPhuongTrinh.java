@@ -8,7 +8,7 @@ public class GiaiPhuongTrinh {
 
 	public static void giaiPTB1(float a, float b) throws GiaiPTException {
 		if (a == 0) {
-			throw new GiaiPTException("Vui long nhap he so a khác 0!");
+			throw new GiaiPTException("Vui long nhap he so a khac 0!");
 		} else {
 			System.out.println("Phuong trinh co nghiem: " + (-b / a));
 		}
